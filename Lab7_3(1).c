@@ -3,7 +3,7 @@
 int main() {
     int x;
 
-    printf("Введите степень числа 10 (например, от -12 до 12):\n");
+    printf("Введите степень: \n");
     if (scanf("%d", &x) != 1) {
     }
 
@@ -26,7 +26,7 @@ int main() {
             printf("гекто (г)\n");
             break;
         case 1:
-            printf("дека (да)\n");
+            printf("дека (д)\n");
             break;
         case 0:
             printf("единица\n");
