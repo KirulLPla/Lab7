@@ -20,34 +20,34 @@ int main() {
             printf("мега (М)\n");
             break;
         case 3:
-            printf("кило (к)\n");
+            printf("кило (К)\n");
             break;
         case 2:
-            printf("гекто (г)\n");
+            printf("гекто (Г)\n");
             break;
         case 1:
-            printf("дека (д)\n");
+            printf("дека (Д)\n");
             break;
         case 0:
             printf("единица\n");
             break;
         case -1:
-            printf("деци (д)\n");
+            printf("деци (Д)\n");
             break;
         case -2:
-            printf("санти (с)\n");
+            printf("санти (С)\n");
             break;
         case -3:
-            printf("милли (м)\n");
+            printf("милли (М)\n");
             break;
         case -6:
-            printf("микро (мк)\n");
+            printf("микро (Мк)\n");
             break;
         case -9:
-            printf("нано (н)\n");
+            printf("нано (Н)\n");
             break;
         case -12:
-            printf("пико (п)\n");
+            printf("пико (П)\n");
             break;
         default:
             printf("неизвестна или не входит в диапазон пико...тера.\n");
